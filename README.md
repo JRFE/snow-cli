@@ -9,11 +9,11 @@ $ npm install -g snow-cli
 ### 如何使用
 
 ``` bash
-snow-cli <模板名称> [项目名称]
+snow <模板名称> [项目名称]
 ```
 
 ### example
 
 ``` bash
-snow-cli vue nodejs-jinrong-h5-web
+snow vue nodejs-jinrong-h5-web
 ```
