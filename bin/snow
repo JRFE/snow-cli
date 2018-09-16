@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+const program = require('commander');
+const pkg = require('../package.json');
+const logger = require('../lib/logger');
+const template = require('../lib/template');
+
+program
+  .version(pkg.version, '-v, --version')
+  .parse(process.argv);
+
+let args = program.args;
+
+switch(args[0]) {
+  case 'vue':
+    template.vueTemplate(args[1]);
+    break;
+  case undefined:
+    logger.error('请输入模板名 ');
+    break;
+  default:
+    logger.error('未找到该模板');
+    break;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "snow-cli",
+  "version": "1.0.0",
+  "description": "自动构建项目",
+  "main": "bin/snow",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "snow": "./bin/snow"
+  },
+  "keywords": [
+    "auto",
+    "build",
+    "project"
+  ],
+  "author": "flyerjay",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.0",
+    "ora": "^3.0.0"
+  }
+}

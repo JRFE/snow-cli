@@ -1,0 +1,21 @@
+[{
+  "name": "name",
+  "default": "snow-default-project",
+  "description": "项目名"
+}, {
+  "name": "version",
+  "default": "1.0.0",
+  "description": "版本号"
+}, {
+  "name": "author",
+  "default": "flyerjay",
+  "description": "作者"
+}, {
+  "name": "description",
+  "default": "snow-template",
+  "description": "描述"
+}, {
+  "name": "main",
+  "default": "www",
+  "description": "入口文件"
+}]
