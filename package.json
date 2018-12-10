@@ -1,6 +1,6 @@
 {
   "name": "snow-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "自动构建项目",
   "main": "bin/snow",
   "scripts": {
